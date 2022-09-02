@@ -5,18 +5,17 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## The challenge
 
-Your challenge is to build out this card component and get it looking as close to the design as possible.
+My challenge is to build out this card component and get it looking as close to the design as possible.
 
 
 ## Screenshot
 
-![screenshot](./assets/images/desktop.png)
+![screenshot](./images/desktop.png)
 
 
 ## Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/profile-card-challenge-responsive-solution-html-and-css-BNAgC-y6ff
-- Live Site URL: https://raink31.github.io/07-Profile-Card-Component/
+- Live Site URL: https://profile-card-component-project01/netlify.app
 
 ## Built with
 
@@ -27,4 +26,4 @@ Your challenge is to build out this card component and get it looking as close t
 
 ## Author
 
-- Frontend Mentor - https://www.frontendmentor.io/profile/Raink31
+- Frontend Mentor - https://www.frontendmentor.io/profile/Medieval123
