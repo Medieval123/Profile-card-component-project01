@@ -1,0 +1,135 @@
+/* RESETS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+/* CSS */
+
+body{
+    padding: 1rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom 50vh right 50vw, top 50vh left 50vw;
+}
+
+.main{
+    max-width: 375px;
+}
+
+.wrapper{
+    position: relative;
+    margin: 1.5rem;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5.5rem;
+    padding-bottom: 1.5rem;
+    width: 330px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
+}
+
+.card-bg{
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.img-box{
+    z-index: 1;
+}
+
+.img-box img{
+    border-radius: 52px;
+    border: 5px solid white;
+}
+
+.text-box{
+    padding-top: 1.2rem;
+    width: 330px;
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+}
+
+.presentation h1{
+    font-size: 1em;
+    color: hsl(229, 23%, 23%);
+    padding-right: 0.6rem;
+    font-weight: 700;
+}
+
+.presentation p{
+    color: hsl(227, 10%, 46%);
+}
+
+.town{
+    color: hsl(227, 10%, 46%);
+    font-size: 0.8em;
+    padding-top: 0.5rem;
+}
+
+
+.stats{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 280px;
+    margin: auto;
+}
+
+.separateur{
+    margin-top: 1.5rem;
+    background-color: hsla(227, 10%, 46%, 0.151);
+    width: 375px;
+    height: 1px;
+}
+
+.stats div{
+    width: 150px;
+}
+
+.stats strong{
+    color: hsl(229, 23%, 23%);
+}
+
+.stats span{
+    font-size: 0.6em;
+    letter-spacing: 1px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+footer{
+    color: white;
+    font-size: 0.7em;
+}
+
+footer a{
+    color: #062a2d;
+    font-weight: bold;
+}
+a {
+    text-align: center;
+}
